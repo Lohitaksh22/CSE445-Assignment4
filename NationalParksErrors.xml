@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NationalPark>
+
+	<NationalPark Rating="4.8">
+		<Name>Yellowstone National Park</Name>
+		<Name>Duplicate Name</Name>
+		<Phone>307-344-7381</Phone>
+		<Address>
+			<Number>2</Number>
+			<Street>Old Faithful Rd</Street>
+			<City>Yellowstone</City>
+			<State>WY</State>
+			<Zip>82190</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark>
+		<Name>Yosemite National Park</Name>
+		<Address NearestAirport="Fresno">
+			<Number>9035</Number>
+			<Street>Village Dr</Street>
+			<City>Yosemite Valley</City>
+			<State>CA</State>
+			<Zip>95389</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark>
+		<Name>Zion National Park</Name>
+		<Phone>435-772-3256</Phone>
+		<Address NearestAirport="StGeorge">
+			<Number>1</Number>
+			<Street>Zion Park Blvd</Street>
+			<City>Springdale</City>
+			<State>UT</State>
+			<Zip>84767</Zip>
+		</NationalPark>
+
+</NationalPark>
