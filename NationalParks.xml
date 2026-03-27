@@ -1,6 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NationalParks>
+<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="https://lohitaksh22.github.io/CSE445-Assignment4/NationalParks.xsd">
 
+
+
+<NationalPark Rating="4.5">
+  <Name>Acadia National Park</Name>
+  <Phone>207-288-3338</Phone>
+  <Address NearestAirport="Bangor">
+    <Number>20</Number>
+    <Street>McFarland Hill Dr</Street>
+    <City>Bar Harbor</City>
+    <State>ME</State>
+    <Zip>04609</Zip>
+  </Address>
+</NationalPark>
+
+	
 	<NationalPark Rating="4.8">
 		<Name>Yellowstone National Park</Name>
 		<Phone>307-344-7381</Phone>
