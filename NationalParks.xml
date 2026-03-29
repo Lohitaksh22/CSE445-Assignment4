@@ -1,6 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
 <NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:noNamespaceSchemaLocation="https://lohitaksh22.github.io/CSE445-Assignment4/NationalParks.xsd">
+               xsi:schemaLocation="https://lohitaksh22.github.io/CSE445-Assignment4/NationalParks.xsd">
+
+  <NationalPark Rating="4.9">
+    <Name>Grand Canyon</Name>
+    <Phone>928-638-7496</Phone>
+    <Phone>888-297-2757</Phone>
+    <Phone>866-499-2574</Phone>
+    <Address NearestAirport="FlagStaff">
+      <Number>8</Number>
+      <Street>S Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+  </NationalPark>
 
   <NationalPark Rating="4.5">
     <Name>Acadia National Park</Name>
@@ -35,20 +48,6 @@
       <City>Yosemite Valley</City>
       <State>CA</State>
       <Zip>95389</Zip>
-    </Address>
-  </NationalPark>
-
-  <NationalPark Rating="4.9">
-    <Name>Grand Canyon</Name>
-    <Phone>928-638-7496</Phone>
-    <Phone>888-297-2757</Phone>
-    <Phone>866-499-2574</Phone>
-    <Address NearestAirport="FlagStaff">
-      <Number>8</Number>
-      <Street>S Entrance Road</Street>
-      <City>Grand Canyon</City>
-      <State>AZ</State>
-      <Zip>86023</Zip>
     </Address>
   </NationalPark>
 
