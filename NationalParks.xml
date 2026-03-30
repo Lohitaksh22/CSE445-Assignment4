@@ -1,6 +1,6 @@
-<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:noNamespaceSchemaLocation="https://lohitaksh22.github.io/CSE445-Assignment4/NationalParks.xsd">
-
+<NationalParks xmlns="https://lohitaksh22.github.io/CSE445-Assignment4"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="https://lohitaksh22.github.io/CSE445-Assignment4 https://lohitaksh22.github.io/CSE445-Assignment4/NationalParks.xsd">
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -134,5 +134,4 @@
       <Zip>37738</Zip>
     </Address>
   </NationalPark>
-
 </NationalParks>
